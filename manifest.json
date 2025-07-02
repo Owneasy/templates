@@ -1,10 +1,8 @@
 {
     "id": "e568cb22-bda3-4065-a829-6b09966c1eed",
-    "authors": [
-        "Owneasy"
-    ],
-    "origin": "https://github.com/Owneasy - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/Owneasy - Made with AMP Config Generator/AMPTemplates",
+    "authors": ["Owneasy"],
+    "origin": "https://github.com/Owneasy",
+    "url": "https://github.com/Owneasy",
     "imagefile": "",
     "prefix": ""
 }
