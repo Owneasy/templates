@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Teamspeak 6 Server
-App.CommandLineArgs={{$PlatformArgs}} license_accepted=1 {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} --default-voice-port GamePort1 license_accepted=1 {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
