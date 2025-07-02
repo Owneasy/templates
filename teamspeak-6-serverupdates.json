@@ -1,12 +1,11 @@
 [
     {
-        "UpdateStageName": "Download Teamspeak",
+        "UpdateStageName": "Download Teamspeak Server",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/1004229557/4c2e45d9-5335-41cd-9e40-dada289eb521?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250702%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250702T171039Z&X-Amz-Expires=1800&X-Amz-Signature=04925b666b28d6d37a667e408518663f643e1073285152fb65e7c415fe7d490f&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dteamspeak-server_linux_amd64-v6.0.0-beta3.tar.bz2&response-content-type=application%2Foctet-stream",
-        "UpdateSourceTarget": "{{$FullBaseDir}}",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceArgs": "teamspeak/teamspeak6-server",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
     },
