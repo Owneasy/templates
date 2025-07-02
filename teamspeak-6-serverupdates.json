@@ -11,5 +11,18 @@
         "UpdateSourceConditionValue": "true",
         "DeleteAfterExtract": true,
         "OneShot": false
+    },
+    {
+        "UpdateStageName": "Download Teamspeak",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": " teamspeak-server_win64-v6.0.0-beta3.zip ",
+        "UpdateSourceArgs": "teamspeak/teamspeak6-server",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "UpdateSourceConditionSetting": "GitHubDownload",
+        "UpdateSourceConditionValue": "true",
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
 ]
