@@ -5,6 +5,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "teamspeak-server_linux_amd64-v6.0.0-beta3.tar.bz2",
         "UpdateSourceArgs": "teamspeak/teamspeak6-server",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "GitHubDownload",
