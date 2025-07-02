@@ -1,0 +1,15 @@
+[
+    {
+        "UpdateStageName": "Download Teamspeak",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "*.tar.gz",
+        "UpdateSourceArgs": "teamspeak/teamspeak6-server",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionSetting": "GitHubDownload",
+        "UpdateSourceConditionValue": "true",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "9987",
+        "Name": "",
+        "Description": "Port used for main game traffic",
+        "Ref": ""
+    },
+    {
+        "Protocol": "Both",
+        "Port": "30033",
+        "Name": "Filetransfer",
+        "Description": "Port used for main game traffic",
+        "Ref": "Filetransfer"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "10022",
+        "Name": "ssh",
+        "Description": "Port used for main game traffic",
+        "Ref": "ssh"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "10080",
+        "Name": "http",
+        "Description": "Port used for main game traffic",
+        "Ref": "http"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "10443",
+        "Name": "https",
+        "Description": "Port used for main game traffic",
+        "Ref": "https"
+    }
+]
