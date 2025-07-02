@@ -11,14 +11,6 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Working Directory Replacement",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd \\\"{{$FullBaseDir}}\\\"; mv teamspeak-server_linux_amd64-v6.0.0-beta3 teamspeak-server_linux_amd6\"",
-        "SkipOnFailure": false
-    },
-    {
         "UpdateStageName": "Set Executable Flag",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SetExecutableFlag",
