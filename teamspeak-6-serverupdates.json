@@ -14,7 +14,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \" tar xf *.tar.bz2\"",
+        "UpdateSourceArgs": "-c \"ls -a; tar xf *.tar.bz2\"",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
