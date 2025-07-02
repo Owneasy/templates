@@ -22,7 +22,7 @@
     },
     {
         "UpdateStageName": "Delete Downloaded Archive",
-        "UpdateSourcePlatform": "All",
+        "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
         "UpdateSourceArgs": "-c \"cd \\\"{{$FullBaseDir}}\\\"; rm -r *.tar.bz2\"",
