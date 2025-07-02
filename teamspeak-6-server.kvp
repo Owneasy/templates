@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Teamspeak 6
-App.CommandLineArgs={{$PlatformArgs}} --accept-license=accept {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} --accept-license {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
