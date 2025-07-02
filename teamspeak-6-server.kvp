@@ -1,4 +1,4 @@
-Meta.DisplayName=Teamspeak 6 Server
+Meta.DisplayName=Teamspeak 6
 Meta.Description=
 Meta.Arch=x86_64
 Meta.Author=Owneasy
@@ -14,7 +14,7 @@ Meta.AppConfigId=2effaafd-a7e3-4b84-a012-05ffadc75a51
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
-App.DisplayName=Teamspeak 6 Server
+App.DisplayName=Teamspeak 6
 App.CommandLineArgs={{$PlatformArgs}} license_accepted=1 {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
@@ -69,7 +69,7 @@ Console.AppReadyRegex=^Server\s+is\s+ready\.$
 Console.UserJoinRegex=^$
 Console.UserLeaveRegex=^$
 Console.UserChatRegex=^$
-Meta.OS=3
+Meta.OS=Linux
 Meta.ConfigManifest=teamspeak-6-serverconfig.json
 Meta.MetaConfigManifest=teamspeak-6-servermetaconfig.json
 Meta.ConfigRoot=teamspeak-6-server.kvp
