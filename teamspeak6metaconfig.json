@@ -1,0 +1,8 @@
+[
+    {
+        "ConfigFile": "tsserver.yaml",
+        "AutoMap": true,
+        "ConfigType": "kvp",
+        "ConfigFormatRegex": "^(?<key>.+?)=(?<value>.*?)$"
+    }
+]

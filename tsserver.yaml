@@ -1,0 +1,73 @@
+server:
+  license-path: .
+  default-voice-port: 9987
+  voice-ip:
+    - 0.0.0.0
+    - "::"
+  machine-id: ""
+  threads-voice-udp: 5
+  log-path: logs
+  log-append: 0
+  no-default-virtual-server: 0
+  filetransfer-port: 30033
+  filetransfer-ip:
+    - 0.0.0.0
+    - "::"
+  clear-database: 0
+  no-permission-update: 0
+  http-proxy: ""
+  accept-license: accept
+  crashdump-path: crashdumps
+
+  database:
+    plugin: sqlite3
+    sql-path: /opt/tsserver/sql/
+    sql-create-path: /opt/tsserver/sql/create_sqlite/
+    client-keep-days: 30
+    config:
+      skip-integrity-check: 0
+      host: 127.0.0.1
+      port: 5432
+      socket: ""
+      timeout: 10
+      name: teamspeak
+      username: ""
+      password: ""
+      connections: 10
+      log-queries: 0
+
+  query:
+    pool-size: 2
+    log-timing: 3600
+    ip-allow-list: query_ip_allowlist.txt
+    ip-block-list: query_ip_denylist.txt
+    admin-password: ""
+    log-commands: 0
+    skip-brute-force-check: 0
+    buffer-mb: 20
+    documentation-path: serverquerydocs
+    timeout: 300
+
+    ssh:
+      enable: 0
+      port: 10022
+      ip:
+        - 0.0.0.0
+        - "::"
+      rsa-key: ssh_host_rsa_key
+
+    http:
+      enable: 0
+      port: 10080
+      ip:
+        - 0.0.0.0
+        - "::"
+
+    https:
+      enable: 0
+      port: 10443
+      ip:
+        - 0.0.0.0
+        - "::"
+      certificate: ""
+      private-key: ""
