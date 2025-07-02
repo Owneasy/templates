@@ -4,25 +4,31 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
         "UpdateSourceArgs": "teamspeak/teamspeak6-server",
-        "UnzipUpdateSource": true,
+        "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     },
     {
-        "UpdateStageName": "Unzip",
+        "UpdateStageName": "Unzip Server files",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd \\\"{{$FullBaseDir}}\\\"; tar xf *.tar.bz2; rm -r *.tar.bz2\"",
-        "SkipOnFailure": false
+        "UpdateSourceArgs": "-c \" tar xf *.tar.bz2\"",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
     },
     {
-        "UpdateStageName": "Set Executable Flag",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "{{$FullBaseDir}}tsserver",
-        "UpdateSourceArch": "x86_64",
-        "SkipOnFailure": false
+        "UpdateStageName": "Delete Downloaded Archive",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \" rm -r *.tar.bz2\"",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
     }
 ]
