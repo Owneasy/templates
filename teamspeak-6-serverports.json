@@ -2,36 +2,36 @@
     {
         "Protocol": "UDP",
         "Port": "9987",
-        "Name": "",
-        "Description": "Port used for main game traffic",
+        "Name": "VoicePort",
+        "Description": "Port used for main voice traffic",
         "Ref": ""
     },
     {
         "Protocol": "TCP",
         "Port": "30033",
         "Name": "Filetransfer",
-        "Description": "Port used for main game traffic",
+        "Description": "Port used for main file traffic",
         "Ref": "Filetransfer"
     },
     {
         "Protocol": "TCP",
         "Port": "10022",
         "Name": "ssh",
-        "Description": "Port used for main game traffic",
+        "Description": "Port used for main ssh traffic",
         "Ref": "ssh"
     },
     {
         "Protocol": "TCP",
         "Port": "10080",
         "Name": "http",
-        "Description": "Port used for main game traffic",
+        "Description": "Port used for main http traffic",
         "Ref": "http"
     },
     {
         "Protocol": "TCP",
         "Port": "10443",
         "Name": "https",
-        "Description": "Port used for main game traffic",
+        "Description": "Port used for main https traffic",
         "Ref": "https"
     }
 ]
